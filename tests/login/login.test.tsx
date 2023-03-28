@@ -5,6 +5,8 @@ import Login from "src/feature/login";
 
 const loginFeature = loadFeature("tests/login/login.feature");
 
+console.log('ksks')
+
 const backgroundStepDefinition: (
   options: Pick<Parameters<StepDefinitions>[0], "given">
 ) => void = ({ given }) => {
